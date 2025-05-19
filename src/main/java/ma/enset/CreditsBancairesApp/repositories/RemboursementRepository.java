@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface RemboursementRepository extends JpaRepository<Remboursement, Long> {
-    // Custom query methods can be added here if needed
+
 }
