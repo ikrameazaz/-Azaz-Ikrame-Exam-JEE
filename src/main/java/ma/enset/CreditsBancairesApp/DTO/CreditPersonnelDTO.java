@@ -1,5 +1,8 @@
 package ma.enset.CreditsBancairesApp.DTO;
 
-public class CreditPersonnelDTO {
+import lombok.Data;
+
+@Data
+public class CreditPersonnelDTO extends  CreditDTO{
     private String motif;
 }

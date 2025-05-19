@@ -1,7 +1,9 @@
 package ma.enset.CreditsBancairesApp.DTO;
 
-import java.util.Date;
+import lombok.Data;
 
+import java.util.Date;
+@Data
 public class RemboursementDTO {
     private Long id;
     private Date date;
