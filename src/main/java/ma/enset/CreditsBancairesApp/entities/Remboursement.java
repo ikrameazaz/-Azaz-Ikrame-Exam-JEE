@@ -15,15 +15,11 @@ public class Remboursement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Temporal(TemporalType.DATE)
     private Date date;
-
     private Double montant;
-
     @Enumerated(EnumType.STRING)
     private TypeRemboursement type;
-
     @ManyToOne
     private Credit credit;
 }

@@ -12,5 +12,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CreditPersonnel extends Credit {
-    private String motif; // Exemple: achat de voiture, études, travaux
+    private String motif;
 }

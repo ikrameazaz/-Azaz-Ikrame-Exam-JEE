@@ -15,5 +15,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CreditImmobilier extends Credit {
     @Enumerated(EnumType.STRING)
-    private TypeBien typeBien; // Appartement, Maison, ou Local Commercial
+    private TypeBien typeBien;
 }

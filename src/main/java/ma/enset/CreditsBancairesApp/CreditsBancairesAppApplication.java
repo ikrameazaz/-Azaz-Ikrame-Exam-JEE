@@ -17,7 +17,6 @@ public class CreditsBancairesAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CreditsBancairesAppApplication.class, args);
 	}
-
 	@Bean
 	CommandLineRunner start(
 			ClientRepository clientRepository,
